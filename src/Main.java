@@ -3,14 +3,13 @@ package src;
 public class Main {
     public static void main(String[] args)
     {
-        //какая-то хуйня
-        System.out.println("Hello\\\"\nWorld\t!");
+       int i;
+       i = 1;
+       System.out.println(i);
 
-        /* большой коментарий
-
-
-           шоб не забыть что там да как
-         */
-        System.out.println("\nКонец\n\n\n\n\tНо не мой");
+           // byte byteType = -128 до 127 занимает 1 байт
+          // short shortType = -32768 до 32767 занимает 2 байта
+         // int intType = -2147483648 до  2147483647 занимает 4 байта
+        // long longType = хранит целое число от –9 223 372 036 854 775 808 до 9 223 372 036 854 775 807 и занимает 8 байт
     }
 }
